@@ -24,7 +24,7 @@ p {
 }
 
 hr {
-    cplor: #333;
+    color: #333;
 }
 
 h1 {
@@ -41,4 +41,15 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     text-align: center;
+}
+
+nav ul, li {
+    padding: 10px;
+}
+
+.about_box {
+    width: 50%;
+    margin: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
 }
